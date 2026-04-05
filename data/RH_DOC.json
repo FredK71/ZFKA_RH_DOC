@@ -1,0 +1,94 @@
+{
+    "Package": "ZFKA_RH_DOC",
+ "Domains": [
+        {
+            "Name": "ZRH_DOCUMENT_ID",
+            "Description": "Document ID",
+            "Base_Type": "RAW",
+            "Length": 16
+        },
+        {
+            "Name": "ZRH_DOCUMENT_STREAM",
+            "Description": "Document (Stream)",
+            "Base_Type": "RAWSTRING"
+        },
+        {
+            "Name": "ZRH_MIMETYPE",
+            "Description": "Mimetype",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZRH_TAG_ID",
+            "Description": "Tag ID",
+            "Base_Type": "CHAR",
+            "Length": 2
+        },
+        {
+            "Name": "ZRH_FILENAME",
+            "Description": "Filename",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZRH_DESCRIPTION",
+            "Description": "Filename",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZRH_TITLE",
+            "Description": "Title",
+            "Base_Type": "CHAR",
+            "Length": 160,
+            "Case_Sensitive": "X"
+        }
+    ],
+    "Data_Elements": [
+        {
+            "Name": "ZRH_DOCUMENT_ID",
+            "Description": "Document ID",
+            "Label": "Document ID",
+            "Domain": "ZRH_DOCUMENT_ID"
+        },
+        {
+            "Name": "ZRH_DESCRIPTION",
+            "Description": "Document Description",
+            "Label": "Document Description",
+            "Domain": "ZRH_DESCRIPTION"
+        },
+        {
+            "Name": "ZRH_DOCUMENT_STREAM",
+            "Description": "Document (Stream)",
+            "Label": "Document (Stream)",
+            "Domain": "ZRH_DOCUMENT_STREAM"
+        },
+        {
+            "Name": "ZRH_MIMETYPE",
+            "Description": "Mimetype",
+            "Label": "Mimetype",
+            "Domain": "ZRH_MIMETYPE"
+        },
+        {
+            "Name": "ZRH_TAG_ID",
+            "Description": "Tag ID",
+            "Label": "Tag ID",
+            "Domain": "ZRH_TAG_ID"
+        },
+        {
+            "Name": "ZRH_FILENAME",
+            "Description": "Filename",
+            "Label": "Filename",
+            "Domain": "ZRH_FILENAME"
+        },
+        {
+            "Name": "ZRH_TITLE",
+            "Description": "Title",
+            "Label": "Title",
+            "Domain": "ZRH_TITLE"
+        }
+    ]
+}
