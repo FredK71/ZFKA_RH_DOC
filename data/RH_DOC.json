@@ -50,8 +50,8 @@
     "Data_Elements": [
         {
             "Name": "ZFKA_DOCUMENT_ID3",
-            "Description": "Document ID",
-            "Label": "Document ID",
+            "Description": "Document ID4",
+            "Label": "Document ID4",
             "Domain": "ZFKA_DOCUMENT_ID2"
         },
         {
