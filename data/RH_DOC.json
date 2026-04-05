@@ -2,7 +2,7 @@
     "Package": "ZFKA_RH_DOC",
  "Domains": [
         {
-            "Name": "ZFKA_DOCUMENT_ID",
+            "Name": "ZFKA_DOCUMENT_ID2",
             "Description": "Document ID",
             "Base_Type": "RAW",
             "Length": 16
@@ -49,10 +49,10 @@
     ],
     "Data_Elements": [
         {
-            "Name": "ZFKA_DOCUMENT_ID",
+            "Name": "ZFKA_DOCUMENT_ID3",
             "Description": "Document ID",
             "Label": "Document ID",
-            "Domain": "ZFKA_DOCUMENT_ID"
+            "Domain": "ZFKA_DOCUMENT_ID2"
         },
         {
             "Name": "ZFKA_DESCRIPTION",
