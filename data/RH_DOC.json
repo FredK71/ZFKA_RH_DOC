@@ -1,94 +1,19 @@
 {
-    "Package": "ZFKA_RH_DOC",
- "Domains": [
-        {
-            "Name": "ZFKA_DOCUMENT_ID",
-            "Description": "Document ID",
-            "Base_Type": "RAW",
-            "Length": 16
-        },
-        {
-            "Name": "ZFKA_DOCUMENT_STREAM",
-            "Description": "Document (Stream)",
-            "Base_Type": "RAWSTRING"
-        },
-        {
-            "Name": "ZFKA_MIMETYPE",
-            "Description": "Mimetype",
-            "Base_Type": "CHAR",
-            "Length": 128,
-            "Case_Sensitive": "X"
-        },
-        {
-            "Name": "ZFKA_TAG_ID",
-            "Description": "Tag ID",
-            "Base_Type": "CHAR",
-            "Length": 2
-        },
-        {
-            "Name": "ZFKA_FILENAME",
-            "Description": "Filename",
-            "Base_Type": "CHAR",
-            "Length": 128,
-            "Case_Sensitive": "X"
-        },
-        {
-            "Name": "ZFKA_DESCRIPTION",
-            "Description": "Filename",
-            "Base_Type": "CHAR",
-            "Length": 128,
-            "Case_Sensitive": "X"
-        },
-        {
-            "Name": "ZFKA_TITLE",
-            "Description": "Title",
-            "Base_Type": "CHAR",
-            "Length": 160,
-            "Case_Sensitive": "X"
-        }
-    ],
-    "Data_Elements": [
-        {
-            "Name": "ZFKA_DOCUMENT_ID",
-            "Description": "Document ID",
-            "Label": "Document ID",
-            "Domain": "ZFKA_DOCUMENT_ID"
-        },
-        {
-            "Name": "ZFKA_DESCRIPTION",
-            "Description": "Document Description",
-            "Label": "Document Description",
-            "Domain": "ZFKA_DESCRIPTION"
-        },
-        {
-            "Name": "ZFKA_DOCUMENT_STREAM",
-            "Description": "Document (Stream)",
-            "Label": "Document (Stream)",
-            "Domain": "ZFKA_DOCUMENT_STREAM"
-        },
-        {
-            "Name": "ZFKA_MIMETYPE",
-            "Description": "Mimetype",
-            "Label": "Mimetype",
-            "Domain": "ZFKA_MIMETYPE"
-        },
-        {
-            "Name": "ZFKA_TAG_ID",
-            "Description": "Tag ID",
-            "Label": "Tag ID",
-            "Domain": "ZFKA_TAG_ID"
-        },
-        {
-            "Name": "ZFKA_FILENAME",
-            "Description": "Filename",
-            "Label": "Filename",
-            "Domain": "ZFKA_FILENAME"
-        },
-        {
-            "Name": "ZFKA_TITLE",
-            "Description": "Title",
-            "Label": "Title",
-            "Domain": "ZFKA_TITLE"
-        }
-    ]
+  "Package": "ZFKA_RH_DOC",
+  "Domains": [
+    {
+      "Name": "ZFKA_DOCUMENT_ID2",
+      "Description": "Document ID",
+      "Base_Type": "RAW",
+      "Length": 16
+    }
+  ],
+  "Data_Elements": [
+    {
+      "Name": "ZFKA_DOCUMENT_ID2",
+      "Description": "Document ID 2",
+      "Label": "Document ID",
+      "Domain": "ZFKA_DOCUMENT_ID2"
+    }
+  ]
 }
