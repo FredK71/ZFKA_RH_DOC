@@ -33,6 +33,13 @@
             "Case_Sensitive": "X"
         },
         {
+            "Name": "ZFKA_DOCUMENT_TYPE",
+            "Description": "Document Type",
+            "Base_Type": "CHAR",
+            "Length": 2,
+            "Case_Sensitive": "X"
+        },
+        {
             "Name": "ZFKA_DESCRIPTION",
             "Description": "Filename",
             "Base_Type": "CHAR",
@@ -53,6 +60,12 @@
             "Description": "Document ID",
             "Label": "Document ID",
             "Domain": "ZFKA_DOCUMENT_ID"
+        },
+        {
+            "Name": "ZFKA_DOCUMENT_TYPE",
+            "Description": "Document Type",
+            "Label": "Document Type",
+            "Domain": "ZFKA_DOCUMENT_TYPE"
         },
         {
             "Name": "ZFKA_DESCRIPTION",
