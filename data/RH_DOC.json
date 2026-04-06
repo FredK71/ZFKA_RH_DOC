@@ -1,19 +1,177 @@
 {
-  "Package": "ZFKA_RH_DOC",
-  "Domains": [
-    {
-      "Name": "ZFKA_DOCUMENT_ID2",
-      "Description": "Document ID",
-      "Base_Type": "RAW",
-      "Length": 16
-    }
+    "Package": "ZFKA_RH_DOC",
+ "Domains": [
+        {
+            "Name": "ZFKA_DOCUMENT_ID",
+            "Description": "Document ID",
+            "Base_Type": "RAW",
+            "Length": 16
+        },
+        {
+            "Name": "ZFKA_DOCUMENT_STREAM",
+            "Description": "Document (Stream)",
+            "Base_Type": "RAWSTRING"
+        },
+        {
+            "Name": "ZFKA_MIMETYPE",
+            "Description": "Mimetype",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZFKA_TAG_ID",
+            "Description": "Tag ID",
+            "Base_Type": "CHAR",
+            "Length": 2
+        },
+        {
+            "Name": "ZFKA_FILENAME",
+            "Description": "Filename",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZFKA_DESCRIPTION",
+            "Description": "Filename",
+            "Base_Type": "CHAR",
+            "Length": 128,
+            "Case_Sensitive": "X"
+        },
+        {
+            "Name": "ZFKA_TITLE",
+            "Description": "Title",
+            "Base_Type": "CHAR",
+            "Length": 160,
+            "Case_Sensitive": "X"
+        }
+    ],
+    "Data_Elements": [
+        {
+            "Name": "ZFKA_DOCUMENT_ID",
+            "Description": "Document ID",
+            "Label": "Document ID",
+            "Domain": "ZFKA_DOCUMENT_ID"
+        },
+        {
+            "Name": "ZFKA_DESCRIPTION",
+            "Description": "Document Description",
+            "Label": "Document Description",
+            "Domain": "ZFKA_DESCRIPTION"
+        },
+        {
+            "Name": "ZFKA_DOCUMENT_STREAM",
+            "Description": "Document (Stream)",
+            "Label": "Document (Stream)",
+            "Domain": "ZFKA_DOCUMENT_STREAM"
+        },
+        {
+            "Name": "ZFKA_MIMETYPE",
+            "Description": "Mimetype",
+            "Label": "Mimetype",
+            "Domain": "ZFKA_MIMETYPE"
+        },
+        {
+            "Name": "ZFKA_TAG_ID",
+            "Description": "Tag ID",
+            "Label": "Tag ID",
+            "Domain": "ZFKA_TAG_ID"
+        },
+        {
+            "Name": "ZFKA_FILENAME",
+            "Description": "Filename",
+            "Label": "Filename",
+            "Domain": "ZFKA_FILENAME"
+        },
+        {
+            "Name": "ZFKA_TITLE",
+            "Description": "Title",
+            "Label": "Title",
+            "Domain": "ZFKA_TITLE"
+        }
   ],
-  "Data_Elements": [
-    {
-      "Name": "ZFKA_DOCUMENT_ID2",
-      "Description": "Document ID 2",
-      "Label": "Document ID",
-      "Domain": "ZFKA_DOCUMENT_ID2"
-    }
-  ]
+    "Ddic_Tables": [
+        {
+            "Name": "ZFKA_DOC",
+            "Description": "RH: Documents",
+            "Fields": [
+                {
+                    "Name": "CLIENT",
+                    "Data_Element": "MANDT",
+                    "Key": "X"
+                },                
+                {
+                    "Name": "DOCUMENT_ID",
+                    "Data_Element": "ZFKA_DOCUMENT_ID",
+                    "Key": "X"
+                },
+                {
+                    "Name": "DOCUMENT_TYPE",
+                    "Data_Element": "ZFKA_DOCUMENT_TYPE"
+                },
+                {
+                    "Name": "DOCUMENT",
+                    "Data_Element": "ZFKA_DOCUMENT_STREAM"
+                },
+                {
+                    "Name": "MIMETYPE",
+                    "Data_Element": "ZFKA_MIMETYPE"
+                },
+                {
+                    "Name": "FILENAME",
+                    "Data_Element": "ZFKA_FILENAME"
+                },
+                {
+                    "Name": "TITLE",
+                    "Data_Element": "ZFKA_TITLE"
+                },
+                {
+                    "Name": "DESCRIPTION",
+                    "Data_Element": "ZFKA_DESCRIPTION"
+                },
+                {
+                    "Name": "LOCAL_CREATED_BY",
+                    "Data_Element": "ABP_CREATION_USER"
+                },
+                {
+                    "Name": "LOCAL_CREATED_AT",
+                    "Data_Element": "ABP_CREATION_TSTMPL"
+                },
+                {
+                    "Name": "LOCAL_LAST_CHANGED_BY",
+                    "Data_Element": "ABP_LOCINST_LASTCHANGE_USER"
+                },
+                {
+                    "Name": "LOCAL_LAST_CHANGED_AT",
+                    "Data_Element": "ABP_LOCINST_LASTCHANGE_TSTMPL"
+                },
+                {
+                    "Name": "LAST_CHANGED_AT",
+                    "Data_Element": "ABP_LASTCHANGE_TSTMPL"
+                }
+            ]
+        },
+        {
+            "Name": "ZFKA_DOC_TAG",
+            "Description": "RH: Document Tags",
+            "Fields": [
+                {
+                    "Name": "CLIENT",
+                    "Data_Element": "MANDT",
+                    "Key": "X"
+                },                  
+                {
+                    "Name": "DOCUMENT_ID",
+                    "Data_Element": "ZFKA_DOCUMENT_ID",
+                    "Key": "X"
+                },
+                {
+                    "Name": "TAG_ID",
+                    "Data_Element": "ZFKA_TAG_ID",
+                    "Key": "X"
+                }
+            ]
+        }
+    ]
 }
