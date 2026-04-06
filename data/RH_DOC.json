@@ -106,66 +106,6 @@
   ],
     "Ddic_Tables": [
         {
-            "Name": "ZFKA_DOC",
-            "Description": "RH: Documents",
-            "Fields": [
-                {
-                    "Name": "CLIENT",
-                    "Data_Element": "MANDT",
-                    "Key": "X"
-                },                
-                {
-                    "Name": "DOCUMENT_ID",
-                    "Data_Element": "ZFKA_DOCUMENT_ID",
-                    "Key": "X"
-                },
-                {
-                    "Name": "DOCUMENT_TYPE",
-                    "Data_Element": "ZFKA_DOCUMENT_TYPE"
-                },
-                {
-                    "Name": "DOCUMENT",
-                    "Data_Element": "ZFKA_DOCUMENT_STREAM"
-                },
-                {
-                    "Name": "MIMETYPE",
-                    "Data_Element": "ZFKA_MIMETYPE"
-                },
-                {
-                    "Name": "FILENAME",
-                    "Data_Element": "ZFKA_FILENAME"
-                },
-                {
-                    "Name": "TITLE",
-                    "Data_Element": "ZFKA_TITLE"
-                },
-                {
-                    "Name": "DESCRIPTION",
-                    "Data_Element": "ZFKA_DESCRIPTION"
-                },
-                {
-                    "Name": "LOCAL_CREATED_BY",
-                    "Data_Element": "ABP_CREATION_USER"
-                },
-                {
-                    "Name": "LOCAL_CREATED_AT",
-                    "Data_Element": "ABP_CREATION_TSTMPL"
-                },
-                {
-                    "Name": "LOCAL_LAST_CHANGED_BY",
-                    "Data_Element": "ABP_LOCINST_LASTCHANGE_USER"
-                },
-                {
-                    "Name": "LOCAL_LAST_CHANGED_AT",
-                    "Data_Element": "ABP_LOCINST_LASTCHANGE_TSTMPL"
-                },
-                {
-                    "Name": "LAST_CHANGED_AT",
-                    "Data_Element": "ABP_LASTCHANGE_TSTMPL"
-                }
-            ]
-        },
-        {
             "Name": "ZFKA_DOC_TAG",
             "Description": "RH: Document Tags",
             "Fields": [
