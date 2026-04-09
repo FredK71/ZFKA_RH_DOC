@@ -3,9 +3,18 @@
  "Domains": [
         {
             "Name": "ZFKA_DOC_TYPE",
-            "Description": "Document ID",
+            "Description": "Doc Type",
             "Base_Type": "CHAR",
             "Length": 2
         }
-    ]
+    ],
+    " ": [
+        {
+            "Name": "ZFKA_DOC_TYPE",
+            "Lower_Limit": "01",
+            "Upper_Limit": "",
+            "Descriptio": "Fr1"
+        }
+  ]
+  
 }
