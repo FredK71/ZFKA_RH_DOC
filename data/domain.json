@@ -1,0 +1,12 @@
+{
+    "Package": "ZFKA_RH_DOC",
+ "Domains": [
+        {
+            "Name": "ZFKA_DOC_TYPE",
+            "Description": "Document ID",
+            "Base_Type": "CHAR",
+            "Length": 2
+        }
+    ]
+  
+}
