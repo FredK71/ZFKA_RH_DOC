@@ -4,9 +4,8 @@
         {
             "Name": "ZFKA_DOC_TYPE",
             "Description": "Document ID",
-            "Base_Type": "CHAR",
-            "Length": 2
+            "Base_Type": "RAW",
+            "Length": 16
         }
     ]
-  
 }
