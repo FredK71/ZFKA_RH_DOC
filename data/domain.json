@@ -8,12 +8,12 @@
             "Length": 2
         }
     ],
-    " ": [
+    "Domain_Values": [
         {
             "Name": "ZFKA_DOC_TYPE",
             "Lower_Limit": "01",
             "Upper_Limit": "",
-            "Descriptio": "Fr1"
+            "Description": "Fr1"
         }
   ]
 }
